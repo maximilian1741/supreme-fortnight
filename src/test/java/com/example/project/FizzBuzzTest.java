@@ -1,8 +1,10 @@
 package com.example.project;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FizzBuzzTest {
     @Test
-    returnTest(){
-        assertEquals(num, "1");
+    public void returnTest(){
+        assertEquals(FizzBuzzApp.fizzBuzz(), "1");
     }
 }
