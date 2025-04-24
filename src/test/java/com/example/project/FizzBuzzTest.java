@@ -12,7 +12,11 @@ public class FizzBuzzTest {
 
     @Test 
     public void returnFizzTest(){
-        int num = 3;
         assertEquals(FizzBuzzApp.fizzBuzz(3), "Fizz");
+    }
+
+    @Test 
+    public void returnBuzzTest(){
+        assertEquals(FizzBuzzApp.fizzBuzz(5), "Fizz");
     }
 }
