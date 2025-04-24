@@ -26,4 +26,8 @@ public class FizzBuzzTest {
         assertEquals(FizzBuzzApp.fizzBuzz(9), "Fizz");
     }
 
+    @Test 
+    public void returnBuzzMultipleTest(){
+        assertEquals(FizzBuzzApp.fizzBuzz(25), "Buzz");
+    }
 }
