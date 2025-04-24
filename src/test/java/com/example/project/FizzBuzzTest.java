@@ -30,4 +30,10 @@ public class FizzBuzzTest {
     public void returnBuzzMultipleTest(){
         assertEquals(FizzBuzzApp.fizzBuzz(25), "Buzz");
     }
+
+    @Test 
+    public void returnFizzBuzzTest(){
+        assertEquals(FizzBuzzApp.fizzBuzz(15), "FizzBuzz");
+    }
+
 }
