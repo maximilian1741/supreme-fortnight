@@ -2,7 +2,7 @@ package com.example.project;
 
 public class FizzBuzzTest {
     @Test
-    iterateTest(){
-        assertEquals(num, index);
+    returnTest(){
+        assertEquals(num, "1");
     }
 }
