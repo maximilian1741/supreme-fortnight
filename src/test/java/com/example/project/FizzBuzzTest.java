@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.beans.Transient;
 
 public class FizzBuzzTest {
+    
     @Test
     public void returnTest(){
         assertEquals(FizzBuzzApp.fizzBuzz(1), "1");
@@ -17,6 +18,8 @@ public class FizzBuzzTest {
 
     @Test 
     public void returnBuzzTest(){
-        assertEquals(FizzBuzzApp.fizzBuzz(5), "Fizz");
+        assertEquals(FizzBuzzApp.fizzBuzz(5), "Buzz");
     }
+
+
 }
